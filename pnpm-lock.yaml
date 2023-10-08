@@ -1,0 +1,173 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@grapecity/spread-excelio':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-barcode':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-charts':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-designer':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-designer-resources-cn':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-io':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-languagepackages':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-pdf':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-pivot-addon':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-print':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-resources-zh':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-shapes':
+    specifier: 16.2.1
+    version: 16.2.1
+  '@grapecity/spread-sheets-tablesheet':
+    specifier: 16.2.1
+    version: 16.2.1
+  plugin-typescript:
+    specifier: ^8.0.0
+    version: 8.0.0(typescript@4.1.2)
+  systemjs:
+    specifier: 0.19.22
+    version: 0.19.22
+  typescript:
+    specifier: ^4.1.2
+    version: 4.1.2
+
+packages:
+
+  /@grapecity/spread-excelio@16.2.1:
+    resolution: {integrity: sha512-ETp76vqzsbzG8pLoKFonJG8HaCb154kkOrA/MpAPHaEAuF515WD1C1LpwqUNalAWo1x2ukmC6fifRFt6FoAYWQ==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-barcode@16.2.1:
+    resolution: {integrity: sha512-+QAmOkDuSfx+6BnqN96hFB3dsjWbSgGS0ibOs1hcS3WTlNes1gbrYYjXUMaRpfNoEY4wYYf2v00Urcb2G5ZTHw==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-charts@16.2.1:
+    resolution: {integrity: sha512-VRDW8AxDRVnFZpA8eg11X/s/FKRRctrZKVYY3cfY2NKOw3OEbRTHgft/1TNhssDXyUyf3qFenzg7Gl9UQAgrrA==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-designer-resources-cn@16.2.1:
+    resolution: {integrity: sha512-KEzmHiak3qFDH1jQvu7uw0D/Z+kAcdr/eR0oC3ylVZuw3h7z4BY3hI25Ens/aJ073UKSYDbaE9L2IihY7jXEXQ==}
+    dev: false
+
+  /@grapecity/spread-sheets-designer@16.2.1:
+    resolution: {integrity: sha512-2GiUP/p8hoSS6bARbRosIv/Y+eIeKPOAgu5BRFTixKZbtad1JvCZZY+Aldby+Xu+9+iKV/VTSreoMH0/OVwTUg==}
+    dev: false
+
+  /@grapecity/spread-sheets-io@16.2.1:
+    resolution: {integrity: sha512-npt1ZvMPZ4zbr/7XIWyDaXkwcUZrFW1XUVeTuSNsOFB3CO2XUMM5xKur2YCRb5oaQfJpdaKPZiojC2J3SknwAw==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-languagepackages@16.2.1:
+    resolution: {integrity: sha512-+cRY+Slw6/xUFPFa5RVGxbnYyTRjqnSJs/HYuHRZCuNUXn1o8BvB1rI5pCrei2TFvb5tHtkRxaNgBVxhQbD5fg==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-pdf@16.2.1:
+    resolution: {integrity: sha512-KG+dbyrTpaoHHQwuL6OKu+vgZ5XBblNolxR45y8J1M3pjmTNUk8naDItW1Tb9O1fP1/JCewTPFrp8kYZ4JzMGw==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+      '@grapecity/spread-sheets-print': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-pivot-addon@16.2.1:
+    resolution: {integrity: sha512-Fq4yFQNO7fFEROxLUu6iUbFfDqEYMR823QhqetQOVlvWcIltmfOq+cPaUvrFuh5TzJndGytF6tS7qs4XZ1x49g==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+      '@grapecity/spread-sheets-shapes': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-print@16.2.1:
+    resolution: {integrity: sha512-zxxCBNk0dZidKN2gUZlCFU3/lHZXY5HfsFwidZeH6CBms+JAGj7RY1alPqi6WVqsbIfmW88dwZ7D+VYsIZ44gw==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-resources-zh@16.2.1:
+    resolution: {integrity: sha512-sRkrFjkfb0dpqNYqhiqot6tHbjPvE2+qVXbNvieWj2qxN28V9oqO8UP/XB0blLGtBioa0NJHYT2evl6aI28Z0A==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-shapes@16.2.1:
+    resolution: {integrity: sha512-3NBQX4fqPbgHiw70+ZHQtE7VQelRCD/MEQWkfWRszYekQvLTguShg3vSMcg/y7EpVpR5kguWZU9oSjeiEGribw==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets-tablesheet@16.2.1:
+    resolution: {integrity: sha512-XiwGGiSliGhwilMnLOanGsMIv2Gk/g/i6IGan96wCnSbdEaZicdSZBDvuDb9m9Hj5nT1hQ4bB+mjL4pq965IWg==}
+    dependencies:
+      '@grapecity/spread-sheets': 16.2.1
+    dev: false
+
+  /@grapecity/spread-sheets@16.2.1:
+    resolution: {integrity: sha512-aqlI++qN6DoTj8BMNM9+7AaYQrQgJBP0iJUpwmFzTon/iXMhGDPjpd618dzBQEeVJtMBns8nk9WrkcxT4dDzGw==}
+    dev: false
+
+  /es6-module-loader@0.17.11:
+    resolution: {integrity: sha512-6u2nrCQQ0fg7llO02vHAg8MZSxE+Y+fjy+9906ICIR5qaZLUlx7CePFvEJf1Fz7CnUUkKDt7woYtYTYpy9jVQQ==}
+    engines: {node: '>=0.8.0'}
+    deprecated: This project has been deprecated for "npm install es-module-loader" based on the newer loader spec.
+    dependencies:
+      when: 3.7.8
+    dev: false
+
+  /plugin-typescript@8.0.0(typescript@4.1.2):
+    resolution: {integrity: sha512-9P25tRwjKgk1J1U1VMVJxHhL4OxouurN9otoQ2DJHDoZ8urxKS7G+e9rpiag3pbYpT7EcWqELEYAk/ssOOfQeg==}
+    peerDependencies:
+      typescript: ^2.4.0
+    dependencies:
+      typescript: 4.1.2
+    dev: false
+
+  /systemjs@0.19.22:
+    resolution: {integrity: sha512-z2yXQS2NMUWjvgBg37dGLe3xaKPIl5Lg99FDd8oidHhQvcFWsYgCBHF7Zq469xFqpYT+3XRwoDDWep9ge7CCmw==}
+    dependencies:
+      es6-module-loader: 0.17.11
+      when: 3.7.8
+    dev: false
+
+  /typescript@4.1.2:
+    resolution: {integrity: sha512-thGloWsGH3SOxv1SoY7QojKi0tc+8FnOmiarEGMbd/lar7QOEd3hvlx3Fp5y6FlDUGl9L+pd4n2e+oToGMmhRQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /when@3.7.8:
+    resolution: {integrity: sha512-5cZ7mecD3eYcMiCH4wtRPA5iFJZ50BJYDfckI5RRpQiktMiYTcn0ccLTZOvcbBume+1304fQztxeNzNS9Gvrnw==}
+    dev: false

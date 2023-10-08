@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>SpreadJS in TypeScript</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/@grapecity/spread-sheets/styles/gc.spread.sheets.excel2013white.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/@grapecity/spread-sheets-designer/styles/gc.spread.sheets.designer.min.css">
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="//cdn.bootcdn.net/ajax/libs/FileSaver.js/2.0.5/FileSaver.js"></script>
+    <script src="systemjs.config.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .ribbon-button-welcome {
+            background-image: url('./setting.png');
+            background-size: 35px 35px;
+        }
+        /* .container {
+            display: flex;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="designer-container" style="width:100vw;height:100vh;border:1px solid darkgray"></div>
+    </div>
+</body>
+<script>
+    let spread, designer
+    System.import('./src/hsj');
+</script>
+
+</html>
